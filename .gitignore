@@ -1,0 +1,8 @@
+.python-version
+log
+.venv
+.mypy_cache
+__pycache__
+scripts/repos
+scripts/result.json
+scripts/result.jsonl

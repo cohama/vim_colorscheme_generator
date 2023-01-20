@@ -1,0 +1,5 @@
+.venv
+.mypy_cache
+tensorflow_datasets
+log
+scripts

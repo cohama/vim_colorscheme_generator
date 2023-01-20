@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  vim_colorscheme_generator:
+    build: .
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
